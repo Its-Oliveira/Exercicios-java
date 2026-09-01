@@ -12,10 +12,10 @@ public class Main {
         conta.saldo = scan.nextDouble();
         boolean roda = true;
         while (roda) {
-            System.out.println("--------------------------");
-            System.out.println("Qual operação deseja realizar?");
+            System.out.println("------------------------------------------------------------");
+            System.out.println("Qual operação deseja realizar, " + conta.titular + "?");
             System.out.println("1 - Depositar\n2 - Sacar\n3 - Exibir saldo\n4 - Sair");
-            System.out.println("--------------------------");
+            System.out.println("------------------------------------------------------------");
             int op = scan.nextInt();
             switch (op) {
                 case 1:
